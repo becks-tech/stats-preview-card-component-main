@@ -29,10 +29,8 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-    flex-direction: row;
     background-color: var(--dark-desaturated-blue);
-    height:100%;
-    width: 100%;
+    
     border-radius: 2%;
 }
 .accent{
@@ -46,14 +44,13 @@ body{
     font-family: var(--inter700);
 }
 .text-container p{
-    padding: 0 8em 1em 2.7em;
+    padding: 0 8em 1em 2.4em;
     color: var(--slightly-transparent-white-main-para);
     font-family: var(--inter400);
-    font-size: 12px;
+    font-size: 15px;
 }
 .img-container img{
     display: inline;
-    width: 100%;
     border-radius: 0 2% 2% 0;
 }
 .img-container::before{
@@ -61,17 +58,20 @@ body{
 }
 .stats{
     margin-top: 3em;
-    
 }
 .stats h3{
     display: inline;
     color: var(--white);
-    padding: 2em;
-    text-transform: capitalize;
+    padding: 1em;
     font-family: var(--inter400);
+    font-size: 20px;
+    
 }
-
-
+.stats span{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: var(--slightly-transparent-white-stat-headings)
+}
 .attribution { 
     font-size: 11px; text-align: center; 
     visibility: hidden;
